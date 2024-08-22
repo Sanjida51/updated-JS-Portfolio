@@ -1,0 +1,81 @@
+footer{
+   
+    margin-top: 90px;
+    background-image: linear-gradient(to bottom right, #5d4af1ad, #b90bf9e7);
+
+}
+.footer-container{
+    display: flex;
+    padding: 50px;
+}
+.left-footer-form{
+    width: 50%;
+    /* background-color: aqua; */
+    
+}
+.right-footer-contact{
+    width: 50%;
+    /* background-color: aquamarine; */
+    
+}
+#contact-title{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#form-title{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.form{
+    margin-top: 50px;
+}
+.input{
+    width: 70%;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid wheat;
+    outline: none;
+}
+::placeholder{
+    color: antiquewhite;
+    font-size: 20px;
+}
+#input-msg{
+    margin-top: 65px;
+}
+#send-btn{
+    width: 70%;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid wheat;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.contact-desc{
+    margin-top: 50px;
+}
+#email-info{
+           text-transform: uppercase;
+           font-size: 25px;
+}
+#num-info{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.social-icon{
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+
+                @media only screen and (min-width: 200px) and (max-width: 576px) {
+         
+                }
+                
