@@ -174,3 +174,20 @@
                     }
                 }
                 
+
+                @media only screen and (min-width: 200px) and (max-width: 576px) {
+
+                    .my-blogs {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        flex-direction: column;
+                      }
+                  
+                      .blogs {
+                        width: 100%;
+                       
+                      }
+                    }
+                  
+                

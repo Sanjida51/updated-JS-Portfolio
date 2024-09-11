@@ -106,3 +106,33 @@
   width: 100%;
 }
 }
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .banner-image-container {
+      width: 300px; /* Restricts the container width on small screens */
+      height: 300px; /* Restricts the container height */
+  }
+  
+  .banner-image-container img {
+    width: fit-content;
+      height: 50%; /* Force the image to fill the restricted container */
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .expertise-cards {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center;
+  }
+
+  .expertise-card {
+    border: 1px solid #686868;
+                    width:fit-content; 
+                    background-color: #68686863;
+                    border-radius:20px;
+  }
+
+  .expertise-card h1{
+    padding: 20px;
+  }
+}

@@ -61,7 +61,7 @@ footer{
     margin-top: 50px;
 }
 #email-info{
-           text-transform: ;
+           
            font-size: 25px;
 }
 #num-info{
@@ -76,6 +76,29 @@ footer{
 
 
                 @media only screen and (min-width: 200px) and (max-width: 576px) {
-         
+                    .left-footer-form,
+                    .right-footer-contact {
+                        width: 100%; /* Full width for both columns */
+                        margin-bottom: 30px; /* Add space between sections */
+                    }
+                    #email-info{
+           
+                        font-size: 15px;
+             }
+                    
+                        .footer-container{
+                            flex-direction: column;
+                            padding: 50px;
+                        }
+                
+                    #contact-title,
+                    #form-title {
+                        font-size: 30px; /* Reduce font size on smaller screens */
+                    }
+                
+                    .input,
+                    #send-btn {
+                        font-size: 18px; /* Adjust input and button font size */
+                    }
                 }
                 
