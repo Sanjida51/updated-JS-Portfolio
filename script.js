@@ -65,10 +65,10 @@
 document.addEventListener('DOMContentLoaded', function() {
       // Array containing the paths to the additional project images
       const additionalProjects = [
-          "./image/pr/image 6.png",
-          "./image/pr/image 3.png",
-          "./image/pr/image 7.png",
-          "./image/pr/image 6.png"
+          "./image/pr/pr5.png",
+          "./image/pr/pr6.png",
+          "./image/pr/pr7.png",
+          "./image/pr/pr8.png"
       ];
   
       // Get references to the project grid and button
